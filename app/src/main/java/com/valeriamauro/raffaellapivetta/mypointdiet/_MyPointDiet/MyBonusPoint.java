@@ -1,8 +1,13 @@
 package com.valeriamauro.raffaellapivetta.mypointdiet._MyPointDiet;
 
-/**
- * Created by Raffaella on 12/12/2017.
- */
+import java.util.Date;
 
 public interface MyBonusPoint {
+
+    String getKeyBonusPoint();
+    Date getLastUpdate();
+    Float getPointSaved(); //max 10 p by day
+    void setKeyBonusPoint(String bonusPoint);
+    void setMyLastUpdate(Date lastUpdate);
+    void setPointSaved(Float pointSaved);
 }
