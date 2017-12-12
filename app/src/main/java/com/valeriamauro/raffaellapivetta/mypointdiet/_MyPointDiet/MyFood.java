@@ -16,5 +16,4 @@ public interface MyFood {
     void setMisureFood(String MisureFood);
     void setTypeFood(String TypeFood);
     void setPointFood(Float PointFood);
-
 }
