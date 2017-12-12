@@ -12,7 +12,7 @@ public interface MyFood {
     Float getPointFood();
     void setKeyFood(String KeyFood);
     void setNameFood(String NameFood);
-    void setQuantityFood(Float MisureFood);
+    void setQuantityFood(Float QuantityFood);
     void setMisureFood(String MisureFood);
     void setTypeFood(String TypeFood);
     void setPointFood(Float PointFood);
