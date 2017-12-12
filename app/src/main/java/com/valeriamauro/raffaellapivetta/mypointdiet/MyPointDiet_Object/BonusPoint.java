@@ -6,6 +6,10 @@ import java.util.Date;
 
 
 public class BonusPoint implements MyBonusPoint {
+
+    private Date lastSaved;
+    private String PointSaved;
+
     @Override
     public String getKeyBonusPoint() {
         return null;
@@ -22,7 +26,7 @@ public class BonusPoint implements MyBonusPoint {
     }
 
     @Override
-    public void setKeyBonusPoint(String bonusPoint) {
+    public void setKeyBonusPoint(String keybonusPoint) {
 
     }
 
