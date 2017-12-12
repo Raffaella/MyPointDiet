@@ -8,36 +8,37 @@ import java.util.Date;
 
 public class BonusPoint implements MyBonusPoint {
 
+    private String keyBonusPoint;
     private Date lastSaved;
-    private String PointSaved;
+    private Float pointSaved;
 
     @Override
     public String getKeyBonusPoint() {
-        return null;
+        return keyBonusPoint;
     }
 
     @Override
     public Date getLastUpdate() {
-        return null;
+        return lastSaved;
     }
 
     @Override
     public Float getPointSaved() {
-        return null;
+        return pointSaved;
     }
 
     @Override
     public void setKeyBonusPoint(String keybonusPoint) {
-
+        this.keyBonusPoint = keybonusPoint;
     }
 
     @Override
     public void setMyLastUpdate(Date lastUpdate) {
-
+        this.lastSaved = lastUpdate;
     }
 
     @Override
     public void setPointSaved(Float pointSaved) {
-
+        this.pointSaved = pointSaved;
     }
 }
