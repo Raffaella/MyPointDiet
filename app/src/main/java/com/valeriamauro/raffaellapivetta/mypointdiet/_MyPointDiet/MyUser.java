@@ -6,16 +6,18 @@ public interface MyUser {
 
     String getKeyUser();
     String getNameUser();
-    String getSurnameUser();
     Date getBirthdayUser();
-    int getAge();
-    int getPoint();
+    Float getWeightUser();
+    Float getHightUser();
+    String getSexUsexUser();
+    Float getPointUser();
     void setKeyUser(String keyUser);
     void setNameUser(String nameUser);
-    void setSurnameUser(String surnameUser);
     void setBirthdayUser(Date birthdayUser);
-    void setAge(Date birthdayUser);
-    void setPoint(int pointUser);
+    void setWeightUser(Float weightUser);
+    void setHightUser(Float hightUser);
+    void setSexUsexUser(String sexUser);
+    void setPointUser(Float pointUser);
 
 
 }
