@@ -1,8 +1,6 @@
 package com.valeriamauro.raffaellapivetta.mypointdiet._MyPointDiet;
 
-/**
- * Created by raffaella.pivetta on 31/10/2017.
- */
+// interface object Food
 
 public interface MyFood {
 
@@ -10,8 +8,13 @@ public interface MyFood {
     String getNameFood();
     Float getQuantityFood();
     String getMisureFood();
-    void setKeyFood();
-    void setNameFood();
-    void setQuantityFood();
-    void setMisureFood();
+    String getTypeFood();
+    Float getPointFood();
+    void setKeyFood(String KeyFood);
+    void setNameFood(String NameFood);
+    void setQuantityFood(Float MisureFood);
+    void setMisureFood(String MisureFood);
+    void setTypeFood(String TypeFood);
+    void setPointFood(Float PointFood);
+
 }
