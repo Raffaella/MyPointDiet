@@ -10,10 +10,10 @@ public interface MyFood {
     String getMisureFood();
     String getTypeFood();
     Float getPointFood();
-    void setKeyFood(String KeyFood);
-    void setNameFood(String NameFood);
-    void setQuantityFood(Float QuantityFood);
-    void setMisureFood(String MisureFood);
-    void setTypeFood(String TypeFood);
-    void setPointFood(Float PointFood);
+    void setKeyFood(String keyFood);
+    void setNameFood(String nameFood);
+    void setQuantityFood(Float quantityFood);
+    void setMisureFood(String misureFood);
+    void setTypeFood(String typeFood);
+    void setPointFood(Float pointFood);
 }

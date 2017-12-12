@@ -1,8 +1,19 @@
 package com.valeriamauro.raffaellapivetta.mypointdiet._MyPointDiet;
 
-/**
- * Created by Raffaella on 12/12/2017.
- */
 
 public interface MyFoodDay {
+
+    String getKeyFoodDay();
+    String getNameFoodDay();
+    Float getQuantityFoodDay();
+    String getMisureFoodDay();
+    String getTypeFoodDay();
+    Float getPointFoodDay();
+    void setKeyFoodDay(String keyFoodDay);
+    void setNameFoodDay(String nameFoodDay);
+    void setQuantityFoodDay(Float quantityFoodDay);
+    void setMisureFoodDay(String misureFoodDay);
+    void setTypeFoodDay(String typeFoodDay);
+    void setPointFoodDay(Float pointFoodDay);
+
 }
