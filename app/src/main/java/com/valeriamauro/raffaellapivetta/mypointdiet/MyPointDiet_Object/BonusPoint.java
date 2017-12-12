@@ -1,5 +1,6 @@
 package com.valeriamauro.raffaellapivetta.mypointdiet.MyPointDiet_Object;
 
+
 import com.valeriamauro.raffaellapivetta.mypointdiet._MyPointDiet.MyBonusPoint;
 
 import java.util.Date;
