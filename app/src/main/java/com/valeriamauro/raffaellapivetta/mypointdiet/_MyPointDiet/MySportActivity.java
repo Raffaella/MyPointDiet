@@ -4,5 +4,6 @@ public interface MySportActivity {
 
     String getKeySport();
     String getTypeSport();
+    void setKeySport(String keySport);
 
 }
