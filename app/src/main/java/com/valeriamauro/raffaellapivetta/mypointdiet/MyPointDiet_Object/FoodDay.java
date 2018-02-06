@@ -7,6 +7,8 @@ import com.valeriamauro.raffaellapivetta.mypointdiet._MyPointDiet.MyFoodDay;
  */
 
 public class FoodDay implements MyFoodDay {
+
+
     @Override
     public String getKeyFoodDay() {
         return null;
