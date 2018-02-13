@@ -3,7 +3,7 @@
     package="com.valeriamauro.raffaellapivetta.mypointdiet">
 
     <uses-sdk
-        android:minSdkVersion="27"
+        android:minSdkVersion="26"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -24,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MyPointDiet_Base.BaseActivity"></activity>
     </application>
 
 </manifest>
