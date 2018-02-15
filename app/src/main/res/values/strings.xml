@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyPointDiet</string>
+    <string name="txv_benvenuto">Benvenuto</string>
 </resources>

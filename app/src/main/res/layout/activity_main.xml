@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.valeriamauro.raffaellapivetta.mypointdiet.MyActivity.MainActivity">
 
+
+    <TextView
+        android:id="@+id/txv_benvenuto"
+        android:layout_width="147dp"
+        android:layout_height="23dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
 </android.support.constraint.ConstraintLayout>
