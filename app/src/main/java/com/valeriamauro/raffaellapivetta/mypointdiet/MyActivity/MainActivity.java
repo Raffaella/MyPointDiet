@@ -1,12 +1,11 @@
 package com.valeriamauro.raffaellapivetta.mypointdiet.MyActivity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import com.valeriamauro.raffaellapivetta.mypointdiet.MyPointDiet_Base.BaseActivity;
 import com.valeriamauro.raffaellapivetta.mypointdiet.R;
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
